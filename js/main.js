@@ -326,7 +326,6 @@ function filtreTableau() {
 function trieTableau(tab){
     tab.sort(function (a, b) {
         // return a.age - b.age; // Si résultat est positif ou inverse a et b
-
         return a.prenom.localeCompare(b.prenom);
     });
 }
